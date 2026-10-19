@@ -1,34 +1,38 @@
-# XIUJIN Shopify 主题交付包
+# XIUJIN WordPress + WooCommerce 网站
 
-这是为 **Bazhou Xiujin Furniture Co., Ltd / XIUJIN** 制作的 Shopify Online Store 2.0 主题，面向办公椅、电竞椅和高背办公椅的工厂批发与零售。
+这是为 **Bazhou Xiujin Furniture Co., Ltd / XIUJIN** 重新编译的 WordPress 网站，面向办公椅、电竞椅和行政办公椅的工厂批发与零售。
 
-![XIUJIN 首页预览](XIUJIN-preview-first-screen.png)
+![XIUJIN WordPress 首页预览](XIUJIN-WordPress-preview-desktop.png)
 
 ## 直接下载
 
-- [下载新版 Shopify 主题 ZIP](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-theme.zip)
-- [下载主题预览 PDF](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-preview.pdf)
-- [下载本地交互预览 ZIP](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Preview.zip)
-- [下载 18 个草稿商品 CSV](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-products-DRAFT.csv)
-- [下载 58 个外观配置对应表](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-58-visual-configurations.csv)
-- [下载 58 张商品图片 ZIP](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-58-product-images.zip)
+- [完整交付包：主题、插件、商品包和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.0.0.zip)
+- [WordPress 主题 ZIP](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.0.0.zip)
+- [批发/零售与安全询价插件 ZIP](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.0.0.zip)
+- [WooCommerce 商品导入包：18 个系列、58 张配置图](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip)
+- [本地交互预览 ZIP](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Preview.zip)
+- [手机端预览图](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-preview-mobile.png)
 
-## 上传主题
+## 当前版本
 
-1. Shopify 后台 → **在线商店 / Online Store** → **主题 / Themes**。
-2. 点击 **Import / 导入主题** → **Upload zip file**。
-3. 选择下载后的 `XIUJIN-theme.zip`，不要先解压。
-4. 上传后先点击 **Preview**；确认无误后再 **Publish**。
+- WordPress + WooCommerce 原生主题，无 Elementor 依赖。
+- 工厂批发、零售和两者并行三种商品模式。
+- 18 个完整商品系列和 58 个已核对的视觉配置；每个系列包含独立介绍、特点、关键词和图片映射。
+- 英语、西班牙语、葡萄牙语主题与插件语言包。
+- Facebook、Instagram、TikTok、WhatsApp、Messenger 可配置入口。
+- 五椅组合主视觉；公开首页已移除 `8011` 编号，内部 SKU/来源字段保留以便追溯。
+- 颜色选择使用六张真实目录图；3D 仅展示匹配的黑/象牙参考，并在点击后才加载。
+- 响应式布局、滚动动画、减少动态效果支持、SEO 基础和 WooCommerce 商品页。
+- 商品均为草稿，价格、币种、税务和库存留空，避免发布未经确认的信息。
 
-新版包含 10 张主页图、3 张工厂流程插画、18 个商品系列、交互式 3D 椅子、批发询价、零售商品模板、购物车、滚动动画、SEO、英文/西班牙语/葡萄牙语界面，以及 Facebook、Instagram、TikTok、WhatsApp、Messenger 链接设置。
+## 验证
 
-商品 CSV 全部保持 `draft` 和 `Published=FALSE`。原始价目表没有明确价格币种，因此没有写入售价；确认币种、库存、运费和正式价格后再发布。
+- 主题检查：74 / 74 通过
+- 浏览器检查：74 / 74 通过（1440、768、390、320 px）
+- Store Core 插件检查：18 / 18 通过
+- PHP AST 语法解析：30 / 30 文件通过
+- ZIP 完整性与 SHA-256 已生成
 
-## 说明与验证
+[查看浏览器验证报告](WORDPRESS-VALIDATION.md) · [查看发布清单](release-manifest.json) · [查看校验值](SHA256SUMS.txt)
 
-- [中文安装与使用说明](INSTALLATION-GUIDE-CN.md)
-- [首页文案与 SEO 设置](CONTENT-SEO-GUIDE-CN.md)
-- [终检结果](VALIDATION-CN.md)
-
-工厂图片当前是清楚标注的场景插画。获得真实工厂照片后，请在主题编辑器的 **Factory and supply** 区块中替换。
-
+工厂场景图目前是明确标注的设计示意图，获得真实工厂照片后可在 WordPress 中替换。

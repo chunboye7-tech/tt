@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "files": {
+    "XIUJIN-WordPress-Theme-1.0.0.zip": {
+      "bytes": 10753378,
+      "sha256": "bd06d9d04878b9af9600dc3a27f82bc934add4962277378934a55292b89a4a09"
+    },
+    "XIUJIN-Store-Core-1.0.0.zip": {
+      "bytes": 26862,
+      "sha256": "7c8bbe903e7887dd673c63755ffd6e2306af4b40ebaa50700f872669c43a2a05"
+    },
+    "XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip": {
+      "bytes": 7448654,
+      "sha256": "58e7f89fefc53e0399cd2ae5051fab60aea2747e3be2a6cbb65419248e365a2c"
+    },
+    "XIUJIN-WordPress-Preview.zip": {
+      "bytes": 4487157,
+      "sha256": "bf16e8fe4a808118edefbab3d3ee1b94ed5bdc561fc1ce3c11b9faeb6300fc3a"
+    },
+    "XIUJIN-WordPress-Complete-1.0.0.zip": {
+      "bytes": 22706173,
+      "sha256": "2be952be1954f9f4fad64dbd82ab44265fbe4a79b26a58581333899216f423df"
+    }
+  },
+  "verified_counts": {
+    "product_series": 18,
+    "visual_configurations": 58,
+    "theme_validation_passed": 74,
+    "browser_validation_passed": 74,
+    "plugin_validation_passed": 18,
+    "php_ast_files_parsed": 30
+  }
+}
