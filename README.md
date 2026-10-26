@@ -6,36 +6,48 @@
 
 ## 现在安装哪个文件
 
-在 WordPress 后台进入 **外观 → 主题 → 安装主题 → 上传主题**，只上传：
+如果当前网站已安装 XIUJIN 主题和 Store Core 1.1.0，本次只需在 WordPress 后台进入 **插件 → 安装插件 → 上传插件**，上传并替换：
 
-- [`XIUJIN-WordPress-Theme-1.1.0.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.1.0.zip)
+- [`XIUJIN-Store-Core-1.2.0.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.2.0.zip)
 
-`XIUJIN-WordPress-Complete-1.1.0.zip` 是供电脑解压的完整交付合集，不能在“上传主题”页面安装。
+首次建站还需进入 **外观 → 主题 → 安装主题 → 上传主题**，上传：
+
+- [`XIUJIN-WordPress-Theme-1.2.0.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.2.0.zip)
+
+`XIUJIN-WordPress-Complete-1.2.0.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
 
 ## 下载文件
 
-- [WordPress 主题 1.1.0](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.1.0.zip)
-- [询价功能插件 1.1.0](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.1.0.zip)
+- [询价与广告追踪插件 1.2.0](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.2.0.zip)
+- [WordPress 主题 1.2.0](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.2.0.zip)
 - [WooCommerce 商品导入包：18 个系列、58 个配置、118 张媒体](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip)
-- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.1.0.zip)
-- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.1.0.zip)
+- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.2.0.zip)
+- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.2.0.zip)
 - [本地交互预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Preview.zip)
 - [手机端预览图](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-preview-mobile.png)
 
 详细步骤见 [Hostinger 安装说明](HOSTINGER-INSTALL-中文.md)，文件用途见 [先从这里开始](START-HERE-中文.md)。
 
-## 当前版本
+## 1.2.0 新增广告衡量
 
-- WordPress + WooCommerce 原生主题，无 Elementor 依赖。
-- WooCommerce 用于商品和目录管理；购物车、结账及在线支付默认关闭。
+- 在 **设置 → XIUJIN tracking** 中配置 Google Ads 转化 ID/标签、Meta Pixel ID、TikTok Pixel ID，以及可选的 GA4 Measurement ID。
+- 所有 ID 默认为空；空值时不会加载追踪脚本，也不会生成询盘转化标记。
+- Google、Meta、TikTok 标签只在访客明确接受分析和广告后加载；访客可以改回“仅必要功能”。
+- WordPress 邮件程序接受一条有效询盘发送后，各平台只接收一次匿名 Lead/SubmitForm 事件和随机事件编号。
+- 姓名、邮箱、电话、公司、产品要求和留言不会回传给广告平台。
+- 如果 Site Kit、MonsterInsights 或 GTM 已加载 GA4，请把本插件的 GA4 字段留空，避免重复页面浏览。严格要求同意前零第三方请求时，还需关闭其他插件的前端分析输出或统一使用同一个 CMP。
+- 当前版本为浏览器端像素，不包含 Meta Conversions API、TikTok Events API、Google Enhanced Conversions 等服务器端回传。
+
+## 网站功能
+
+- WordPress + WooCommerce 原生主题，无 Elementor 依赖；购物车、结账及在线支付默认关闭。
 - 工厂批发、零售和两者并行三种商品模式。
 - 18 个草稿商品系列、58 个已核对视觉配置和 118 张目录媒体；每个系列包含独立介绍、特点、关键词和图片映射。
 - 英语、西班牙语、葡萄牙语（巴西）的主题与插件语言包，以及 36 行西班牙语/葡萄牙语商品翻译稿。
-- Polylang 语言菜单会显示所有已配置语言；即使该语言暂时没有文章或当前页面译本，也会链接到对应语言首页。
-- 主题内置翻译使用 WordPress 主题运行时要求的 `languages/es_ES.mo` 与 `languages/pt_BR.mo` 路径；西班牙语和葡萄牙语固定界面可由 Polylang 正确加载。
-- Facebook、Instagram、TikTok、WhatsApp、Messenger 可配置入口；默认 WhatsApp 已更新为 `+86 184 0684 5852`。
+- Polylang 语言菜单显示所有已配置语言，并在当前页面没有译本时安全返回对应语言首页。
+- Facebook、Instagram、TikTok、WhatsApp、Messenger 可配置入口；默认 WhatsApp 为 `+86 184 0684 5852`。
 - 五椅组合主视觉；公开首页已移除 `8011`，内部 SKU/来源字段保留以便追溯。
-- 六张真实目录图与六个 3D 外观逐一匹配；选择图片会立即同步待加载模型，3D 仅在用户点击后加载。
+- 六张真实目录图与六个 3D 外观逐一匹配；选择图片会同步待加载模型，3D 仅在用户点击后加载。
 - 响应式布局、滚动动画、减少动态效果支持、SEO 基础和 WooCommerce 商品页。
 - 商品均为草稿，价格、币种、税务和库存留空，避免发布未经确认的信息。
 
@@ -54,11 +66,12 @@
 
 - 主题检查：80 项通过、0 项失败；1 项预期提示（询价处理由 Store Core 插件负责）
 - 浏览器检查：84 / 84 通过（1440、768、390、320 px，并覆盖六组图片与 3D 映射）
-- Store Core 插件检查：35 / 35 通过
-- 多语言检查：22 / 22 通过；主题 ES/PT 各 240 / 240，插件 ES/PT 各 77 / 77
-- PHP AST 语法解析：30 / 30 文件通过
-- 发布包检查：40 / 40 通过；ZIP 完整性和 SHA-256 已验证
+- Store Core 插件检查：47 / 47 通过
+- 广告追踪专项检查：12 / 12 通过
+- 多语言检查：22 / 22 通过；主题 ES/PT 各 240 / 240，插件 ES/PT 各 109 / 109
+- PHP AST 语法解析：31 / 31 文件通过
+- 发布包检查：41 / 41 通过；ZIP 完整性、来源一致性、可复现构建和 SHA-256 已验证
 
-[查看浏览器验证报告](WORDPRESS-VALIDATION.md) · [查看发布清单](release-manifest.json) · [查看校验值](SHA256SUMS.txt)
+[查看完整验证报告](WORDPRESS-VALIDATION.md) · [查看发布清单](release-manifest.json) · [查看校验值](SHA256SUMS.txt)
 
 工厂场景图目前是明确标注的设计示意图，获得真实工厂照片后可在 WordPress 中替换。
