@@ -29,7 +29,8 @@
 ## 5. 多语言和社媒
 
 - 安装 Polylang 或 WPML 后，可建立英语、西班牙语和葡萄牙语页面；主题与插件固定界面已有三语语言包。
-- 在 Polylang 中添加 `English (en_US)`、`Español (es_ES)` 和 `Português (pt_BR)`。主题会保留显示全部已配置语言；尚未建立页面译本时会跳转到该语言首页。
+- 在 Polylang 中添加 `English (en_US)`、`Español (es_ES)` 和 `Português (pt_BR)`。主题会显示所有已配置语言；访问 `/es/` 与 `/pt/` 时会加载内置固定界面翻译。
+- 页面、商品、菜单和自定义器中手工保存的内容仍需在 Polylang 中分别建立翻译。
 - 在 **外观 → 自定义** 中填写 Facebook、Instagram、TikTok、WhatsApp 和 Messenger 链接。
 - WhatsApp 和 Messenger 可作为主要询价入口。
 
