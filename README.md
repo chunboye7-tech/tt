@@ -6,27 +6,31 @@
 
 ## 现在安装哪个文件
 
-如果当前网站已经安装 XIUJIN 主题和 Store Core 1.2.0，本次只需在 WordPress 后台进入 **插件 → 安装插件 → 上传插件**，上传并替换：
+如果当前网站已经安装 1.2.1，本次只需进入 **外观 → 主题 → 安装主题 → 上传主题**，上传并替换：
 
-- [`XIUJIN-Store-Core-1.2.1.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.2.1.zip)
+- [`XIUJIN-WordPress-Theme-1.2.2.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.2.2.zip)
 
-首次建站还需进入 **外观 → 主题 → 安装主题 → 上传主题**，上传：
+Store Core 1.2.2 与 1.2.1 的运行功能相同；已安装 1.2.1 时无需为本次语言切换修复重复替换插件。
 
-- [`XIUJIN-WordPress-Theme-1.2.1.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.2.1.zip)
-
-`XIUJIN-WordPress-Complete-1.2.1.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
+首次建站请同时安装 1.2.2 主题和 Store Core 插件。`XIUJIN-WordPress-Complete-1.2.2.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
 
 ## 下载文件
 
-- [询价与广告追踪插件 1.2.1](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.2.1.zip)
-- [WordPress 主题 1.2.1](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.2.1.zip)
+- [询价与广告追踪插件 1.2.2](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.2.2.zip)
+- [WordPress 主题 1.2.2](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.2.2.zip)
 - [WooCommerce 商品导入包：18 个系列、58 个配置、118 张媒体](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip)
-- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.2.1.zip)
-- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.2.1.zip)
+- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.2.2.zip)
+- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.2.2.zip)
 - [本地交互预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Preview.zip)
 - [手机端预览图](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-preview-mobile.png)
 
 详细步骤见 [Hostinger 安装说明](HOSTINGER-INSTALL-中文.md)，文件用途见 [先从这里开始](START-HERE-中文.md)。
+
+## 1.2.2 语言切换修复
+
+- 产品页、隐私政策等已有关联译本的页面，切换语言时进入对应翻译页，不再强制返回该语言首页。
+- 语言下拉框已补充辅助技术可识别的名称。
+- 这一行为取决于 Polylang 后台已将英语、西班牙语和葡萄牙语内容正确关联。
 
 ## 1.2.1 询价修复
 
@@ -50,7 +54,7 @@
 - 工厂批发、零售和两者并行三种商品模式。
 - 18 个草稿商品系列、58 个已核对视觉配置和 118 张目录媒体；每个系列包含独立介绍、特点、关键词和图片映射。
 - 英语、西班牙语、葡萄牙语（巴西）的主题与插件语言包，以及 36 行西班牙语/葡萄牙语商品翻译稿。
-- Polylang 语言菜单显示所有已配置语言，并在当前页面没有译本时安全返回对应语言首页。
+- Polylang 语言菜单显示所有已配置语言，并在已关联译本存在时切换到对应页面。
 - Facebook、Instagram、TikTok、WhatsApp、Messenger 可配置入口；默认 WhatsApp 为 `+86 184 0684 5852`。
 - 五椅组合主视觉；公开首页已移除 `8011`，内部 SKU/来源字段保留以便追溯。
 - 六张真实目录图与六个 3D 外观逐一匹配；选择图片会同步待加载模型，3D 仅在用户点击后加载。
@@ -80,4 +84,4 @@
 
 [查看完整验证报告](WORDPRESS-VALIDATION.md) · [查看发布清单](release-manifest.json) · [查看校验值](SHA256SUMS.txt)
 
-工厂场景图目前是明确标注的设计示意图，获得真实工厂照片后可在 WordPress 中替换。
+工厂场景图目前是明确标注的设计示意图。收到真实工厂照片后，需将照片编入下一个主题版本并重新上传主题；当前版本不提供后台直接替换这三张图片的选项。

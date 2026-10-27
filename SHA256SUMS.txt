@@ -1,5 +1,5 @@
-7a9e6cc7612e7f5976fd491ad89b1c6dbb7a0d0be225703883f1d5a462a04e39  XIUJIN-WordPress-Theme-1.2.1.zip
-f7e839158152431d4e08d896874ee2bb7159b2f89d859a72075a22c0d29e7201  XIUJIN-Store-Core-1.2.1.zip
+c83f6d6eae732652ad65570f7f9c101a00b63ad6ddc6667b06cd41f601a8efa9  XIUJIN-WordPress-Theme-1.2.2.zip
+9ce26daa1b8099a9638ac9fc1f7eece0c057ea015cf34fcdc310276b0dc70a2f  XIUJIN-Store-Core-1.2.2.zip
 d37ef7068e970f96b996c77cb001c9099b937140bd0f20f6b2fda237c3fac45a  XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip
 e61ecd579f80321f53b0da14a08dfbb25af1a610c1fca36734fc68633ca7f568  XIUJIN-WordPress-Preview.zip
-bcd853a357d3b833129dbae5f17b2b5564dcb63247ffbd8db4c23769fffaccaa  XIUJIN-WordPress-Source-1.2.1.zip
+c46ff2fac6e583081919d625c71467a6f6e26db836c016a003b92d30d0929d69  XIUJIN-WordPress-Source-1.2.2.zip

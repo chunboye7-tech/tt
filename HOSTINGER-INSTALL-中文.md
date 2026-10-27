@@ -11,13 +11,13 @@
 ## 2. 上传 XIUJIN 主题
 
 1. 进入 **外观 → 主题 → 安装主题 → 上传主题**。
-2. 上传 `XIUJIN-WordPress-Theme-1.2.1.zip`。
+2. 上传 `XIUJIN-WordPress-Theme-1.2.2.zip`。
 3. 安装完成后启用 **XIUJIN Furniture**。
 
 ## 3. 上传询价功能插件
 
 1. 进入 **插件 → 安装插件 → 上传插件**。
-2. 上传 `XIUJIN-Store-Core-1.2.1.zip` 并启用。
+2. 上传 `XIUJIN-Store-Core-1.2.2.zip` 并启用。
 3. 网站会使用商品展示与询价流程，购物车、结账和付款入口不会作为客户购买路径。
 
 ## 4. 导入商品
