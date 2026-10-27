@@ -1,35 +1,35 @@
 {
   "files": {
-    "XIUJIN-Store-Core-1.2.0.zip": {
-      "bytes": 61252,
-      "sha256": "390576da743610894a70e3a6b441e7509ff586c9ddc67551afd6e3191f98198a"
+    "XIUJIN-Store-Core-1.2.1.zip": {
+      "bytes": 61356,
+      "sha256": "f7e839158152431d4e08d896874ee2bb7159b2f89d859a72075a22c0d29e7201"
     },
     "XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip": {
       "bytes": 13095415,
-      "sha256": "991a65df21b245235bbdb0d5d2f20791f2484d8cdb134e9552e3e79fe9fd5c3d"
+      "sha256": "d37ef7068e970f96b996c77cb001c9099b937140bd0f20f6b2fda237c3fac45a"
     },
-    "XIUJIN-WordPress-Complete-1.2.0.zip": {
-      "bytes": 66603567,
-      "sha256": "3306b895ddd1ec0b645f7f2941f00aaf0cb7c28cbc0db5bc876e6075cbcc7b65"
+    "XIUJIN-WordPress-Complete-1.2.1.zip": {
+      "bytes": 66603946,
+      "sha256": "1e2586e55d83d004847096c9619ba179a57688c38f24485be41387695a64b153"
     },
     "XIUJIN-WordPress-Preview.zip": {
       "bytes": 4485721,
-      "sha256": "857245e00a01eeec9a44f224a7fbee5aab4ef3b068454a71ce958a3b17158579"
+      "sha256": "e61ecd579f80321f53b0da14a08dfbb25af1a610c1fca36734fc68633ca7f568"
     },
-    "XIUJIN-WordPress-Source-1.2.0.zip": {
-      "bytes": 45683034,
-      "sha256": "03b16bb77d07b3a4e12893f5dc3b1e20768a771ddf54b63627e9deb2fce47b0c"
+    "XIUJIN-WordPress-Source-1.2.1.zip": {
+      "bytes": 45683297,
+      "sha256": "bcd853a357d3b833129dbae5f17b2b5564dcb63247ffbd8db4c23769fffaccaa"
     },
-    "XIUJIN-WordPress-Theme-1.2.0.zip": {
-      "bytes": 3319464,
-      "sha256": "7fefea84d49d51b01b3c61327af9035e7c7dd1cf2a8e25213b2992920728f0bd"
+    "XIUJIN-WordPress-Theme-1.2.1.zip": {
+      "bytes": 3319469,
+      "sha256": "7a9e6cc7612e7f5976fd491ad89b1c6dbb7a0d0be225703883f1d5a462a04e39"
     }
   },
   "verified_counts": {
     "browser_validation_passed": 84,
     "i18n_validation_passed": 22,
     "php_ast_files_parsed": 31,
-    "plugin_validation_passed": 47,
+    "plugin_validation_passed": 48,
     "product_images": 118,
     "product_series": 18,
     "product_translation_locales": 2,
@@ -39,5 +39,5 @@
     "translated_product_copy_rows": 36,
     "visual_configurations": 58
   },
-  "version": "1.2.0"
+  "version": "1.2.1"
 }

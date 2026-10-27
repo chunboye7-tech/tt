@@ -6,27 +6,33 @@
 
 ## 现在安装哪个文件
 
-如果当前网站已安装 XIUJIN 主题和 Store Core 1.1.0，本次只需在 WordPress 后台进入 **插件 → 安装插件 → 上传插件**，上传并替换：
+如果当前网站已经安装 XIUJIN 主题和 Store Core 1.2.0，本次只需在 WordPress 后台进入 **插件 → 安装插件 → 上传插件**，上传并替换：
 
-- [`XIUJIN-Store-Core-1.2.0.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.2.0.zip)
+- [`XIUJIN-Store-Core-1.2.1.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.2.1.zip)
 
 首次建站还需进入 **外观 → 主题 → 安装主题 → 上传主题**，上传：
 
-- [`XIUJIN-WordPress-Theme-1.2.0.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.2.0.zip)
+- [`XIUJIN-WordPress-Theme-1.2.1.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.2.1.zip)
 
-`XIUJIN-WordPress-Complete-1.2.0.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
+`XIUJIN-WordPress-Complete-1.2.1.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
 
 ## 下载文件
 
-- [询价与广告追踪插件 1.2.0](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.2.0.zip)
-- [WordPress 主题 1.2.0](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.2.0.zip)
+- [询价与广告追踪插件 1.2.1](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.2.1.zip)
+- [WordPress 主题 1.2.1](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.2.1.zip)
 - [WooCommerce 商品导入包：18 个系列、58 个配置、118 张媒体](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip)
-- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.2.0.zip)
-- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.2.0.zip)
+- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.2.1.zip)
+- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.2.1.zip)
 - [本地交互预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Preview.zip)
 - [手机端预览图](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-preview-mobile.png)
 
 详细步骤见 [Hostinger 安装说明](HOSTINGER-INSTALL-中文.md)，文件用途见 [先从这里开始](START-HERE-中文.md)。
+
+## 1.2.1 询价修复
+
+- 修复首页商品卡进入询价区后未自动带入商品名称的问题。
+- 自动带入当前页面语言的商品名称，适用于英语、西班牙语和葡萄牙语。
+- 新增正式 Store Core 表单回归检查；插件检查现为 48 / 48 通过。
 
 ## 1.2.0 新增广告衡量
 
@@ -66,7 +72,7 @@
 
 - 主题检查：80 项通过、0 项失败；1 项预期提示（询价处理由 Store Core 插件负责）
 - 浏览器检查：84 / 84 通过（1440、768、390、320 px，并覆盖六组图片与 3D 映射）
-- Store Core 插件检查：47 / 47 通过
+- Store Core 插件检查：48 / 48 通过
 - 广告追踪专项检查：12 / 12 通过
 - 多语言检查：22 / 22 通过；主题 ES/PT 各 240 / 240，插件 ES/PT 各 109 / 109
 - PHP AST 语法解析：31 / 31 文件通过

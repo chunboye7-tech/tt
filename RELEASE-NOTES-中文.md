@@ -1,9 +1,10 @@
-# XIUJIN WordPress 网站 1.2.0
+# XIUJIN WordPress 网站 1.2.1
 
 本次交付为 WordPress + WooCommerce 网站源码和安全导入数据。
 
 - WordPress 主题：完整主页、商品/归档模板、响应式布局、按需 3D、动态效果、SEO 基础和社媒入口。
 - Store Core 插件：批发与零售询价模式、MOQ、交期、配置编号和安全询价表单。
+- 询价修复：首页商品卡进入询价区时，会自动带入当前语言的商品名称。
 - 广告衡量：可选的 Google Ads、Meta Pixel 和 TikTok Pixel；访客同意后才加载，成功提交的询价仅计为一次匿名 Lead。
 - 交易方式：WooCommerce 仅用于商品与目录管理；购物车、结账和在线支付保持关闭，不安装支付网关。
 - 多语言：主题和插件固定界面已提供英语、西班牙语、葡萄牙语（巴西）；商品内容需在 WordPress 中建立对应翻译。

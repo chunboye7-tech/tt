@@ -1,4 +1,4 @@
-# XIUJIN WordPress 1.2.0 验证报告
+# XIUJIN WordPress 1.2.1 验证报告
 
 最终发布构建已完成，所有阻断项为零。
 
@@ -6,13 +6,15 @@
 |---|---:|
 | WordPress 主题静态检查 | 80 通过 / 0 失败 / 1 预期提示 |
 | 浏览器端到端检查 | 84 / 84 通过 |
-| XIUJIN Store Core 插件 | 47 / 47 通过 |
+| XIUJIN Store Core 插件 | 48 / 48 通过 |
 | Google / Meta / TikTok 追踪专项 | 12 / 12 通过 |
 | 国际化与语言包 | 22 / 22 通过 |
 | PHP AST 语法解析 | 31 / 31 文件通过 |
 | 发布包完整性 | 41 / 41 通过 |
 
-主题检查中的唯一提示是：主题自身没有询价提交处理器。该职责有意交给同一交付中的 `XIUJIN-Store-Core-1.2.0.zip`，因此不是缺陷。
+主题检查中的唯一提示是：主题自身没有询价提交处理器。该职责有意交给同一交付中的 `XIUJIN-Store-Core-1.2.1.zip`，因此不是缺陷。
+
+Store Core 的正式 shortcode 商品输入框已验证包含首页询价脚本所需的 `data-product-field` 钩子。点击任一首页商品卡进入询价区时，会自动带入当前页面语言的商品名称。
 
 ## 广告追踪与询盘转化专项核验
 
@@ -72,4 +74,4 @@
 
 主题、插件、商品导入、预览、源码和完整合集的 CRC、安全路径、重复成员、目录结构、源文件一致性、组件字节一致性、追踪测试证据和可复现构建均已核验。最终结果为 41 / 41 通过。
 
-对应机器可读证据收录于 `XIUJIN-WordPress-Complete-1.2.0.zip` 和 `XIUJIN-WordPress-Source-1.2.0.zip`。
+对应机器可读证据收录于 `XIUJIN-WordPress-Complete-1.2.1.zip` 和 `XIUJIN-WordPress-Source-1.2.1.zip`。
