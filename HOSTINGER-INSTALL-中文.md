@@ -2,7 +2,7 @@
 
 本网站使用 WordPress 和 WooCommerce 管理商品，但采用**询价目录模式**，不启用在线付款。
 
-如果网站已经安装 1.3.0，本次只需在 **外观 → 主题 → 安装主题 → 上传主题** 中上传并替换 `XIUJIN-WordPress-Theme-1.3.1.zip`。Store Core 运行逻辑未改，无需重装插件，也无需重新设置询价、SMTP 或广告追踪。
+如果网站已经安装 1.3.1，本次只需在 **外观 → 主题 → 安装主题 → 上传主题** 中上传并替换 `XIUJIN-WordPress-Theme-1.3.2.zip`。Store Core 运行逻辑未改，无需重装插件，也无需重新设置询价、SMTP 或广告追踪。
 
 ## 1. 基础插件
 
@@ -13,13 +13,13 @@
 ## 2. 上传 XIUJIN 主题
 
 1. 进入 **外观 → 主题 → 安装主题 → 上传主题**。
-2. 上传 `XIUJIN-WordPress-Theme-1.3.1.zip`。
+2. 上传 `XIUJIN-WordPress-Theme-1.3.2.zip`。
 3. 安装完成后启用 **XIUJIN Furniture**。
 
 ## 3. 上传询价功能插件
 
 1. 进入 **插件 → 安装插件 → 上传插件**。
-2. 上传 `XIUJIN-Store-Core-1.3.1.zip` 并启用。
+2. 上传 `XIUJIN-Store-Core-1.3.2.zip` 并启用。
 3. 网站会使用商品展示与询价流程，购物车、结账和付款入口不会作为客户购买路径。
 
 ## 4. 导入商品

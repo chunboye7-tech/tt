@@ -8,26 +8,27 @@
 
 如果当前网站已经安装 XIUJIN 主题和 Store Core，本次只需进入 **外观 → 主题 → 安装主题 → 上传主题**，上传并替换：
 
-- [`XIUJIN-WordPress-Theme-1.3.1.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.1.zip)
+- [`XIUJIN-WordPress-Theme-1.3.2.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.2.zip)
 
-本次上线内容是落地页主题中的四张真实工厂照片与成品仓库视频。已经安装并正常工作的 Store Core 1.2.1、1.2.2、1.3.0 或 1.3.1 可以保留；本次插件运行逻辑未改，无需重新配置询价、SMTP 或广告追踪。
+本次把四张真实工厂照片与成品仓库视频提升为主视觉和数据条之后的第一内容版块。已经安装并正常工作的 Store Core 1.2.1、1.2.2、1.3.0、1.3.1 或 1.3.2 可以保留；本次插件运行逻辑未改，无需重新配置询价、SMTP 或广告追踪。
 
-首次建站请同时安装 1.3.1 主题和 Store Core 插件。`XIUJIN-WordPress-Complete-1.3.1.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
+首次建站请同时安装 1.3.2 主题和 Store Core 插件。`XIUJIN-WordPress-Complete-1.3.2.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
 
 ## 下载文件
 
-- [询价与广告追踪插件 1.3.1](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.3.1.zip)
-- [WordPress 主题 1.3.1](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.1.zip)
+- [询价与广告追踪插件 1.3.2](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.3.2.zip)
+- [WordPress 主题 1.3.2](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.2.zip)
 - [WooCommerce 商品导入包：18 个系列、58 个配置、118 张媒体](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip)
-- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.3.1.zip)
-- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.3.1.zip)
+- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.3.2.zip)
+- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.3.2.zip)
 - [本地交互预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Preview.zip)
 - [手机端预览图](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-preview-mobile.png)
 
 详细步骤见 [Hostinger 安装说明](HOSTINGER-INSTALL-中文.md)，文件用途见 [先从这里开始](START-HERE-中文.md)。
 
-## 1.3.1 真实工厂照片与仓库视频
+## 1.3.2 工厂实拍媒体优先展示
 
+- 工厂实拍图册与仓库视频现位于主视觉和数据条之后，成为访客进入首页后看到的第一内容版块；产品分类、目录、3D 和询价内容继续排列在后方。
 - 删除原来的三张 AI 工厂示意图，落地页改为用户提供的四张生产现场照片、真实成品仓库视频与经哈希核验的封面。
 - 工厂照片展示 CNC 木件加工、面料卷上料、多层面料裁剪、泡棉与软包准备；标题和说明仅描述画面中可核实的内容。
 - 桌面端使用重点图与工序图分层排版，手机端改为清晰单列；照片延迟加载，点击后通过原生 `dialog` 放大查看，并支持键盘关闭与焦点返回。
@@ -93,4 +94,4 @@
 
 [查看完整验证报告](WORDPRESS-VALIDATION.md) · [查看发布清单](release-manifest.json) · [查看校验值](SHA256SUMS.txt)
 
-工厂版块已使用四张真实生产现场照片和真实成品仓库视频；旧版三张 AI 工厂示意图已从主题包中移除。
+工厂版块已使用四张真实生产现场照片和真实成品仓库视频，并提升为主视觉后的第一内容版块；旧版三张 AI 工厂示意图已从主题包中移除。
