@@ -6,25 +6,32 @@
 
 ## 现在安装哪个文件
 
-如果当前网站已经安装 1.2.1，本次只需进入 **外观 → 主题 → 安装主题 → 上传主题**，上传并替换：
+如果当前网站已经安装 XIUJIN 主题和 Store Core，本次只需进入 **外观 → 主题 → 安装主题 → 上传主题**，上传并替换：
 
-- [`XIUJIN-WordPress-Theme-1.2.2.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.2.2.zip)
+- [`XIUJIN-WordPress-Theme-1.3.0.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.0.zip)
 
-Store Core 1.2.2 与 1.2.1 的运行功能相同；已安装 1.2.1 时无需为本次语言切换修复重复替换插件。
+本次上线内容是落地页主题中的真实工厂视频。已经安装并正常工作的 Store Core 1.2.1、1.2.2 或 1.3.0 可以保留，无需重新配置询价、SMTP 或广告追踪。
 
-首次建站请同时安装 1.2.2 主题和 Store Core 插件。`XIUJIN-WordPress-Complete-1.2.2.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
+首次建站请同时安装 1.3.0 主题和 Store Core 插件。`XIUJIN-WordPress-Complete-1.3.0.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
 
 ## 下载文件
 
-- [询价与广告追踪插件 1.2.2](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.2.2.zip)
-- [WordPress 主题 1.2.2](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.2.2.zip)
+- [询价与广告追踪插件 1.3.0](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.3.0.zip)
+- [WordPress 主题 1.3.0](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.0.zip)
 - [WooCommerce 商品导入包：18 个系列、58 个配置、118 张媒体](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip)
-- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.2.2.zip)
-- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.2.2.zip)
+- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.3.0.zip)
+- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.3.0.zip)
 - [本地交互预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Preview.zip)
 - [手机端预览图](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-preview-mobile.png)
 
 详细步骤见 [Hostinger 安装说明](HOSTINGER-INSTALL-中文.md)，文件用途见 [先从这里开始](START-HERE-中文.md)。
+
+## 1.3.0 真实工厂视频
+
+- 删除原来的三张 AI 工厂示意图，落地页改为用户提供的真实成品仓库视频与经哈希核验的封面。
+- 视频已移除音轨并压缩为网页版本，默认不自动播放；访客点击播放，移动端与桌面端均有响应式布局。
+- 页面文案只描述视频中可验证的成品仓储、纸箱库存和发货准备场景，不把同一段视频误称为组装或质检工序。
+- 英语、西班牙语和葡萄牙语固定文案已同步完成。
 
 ## 1.2.2 语言切换修复
 
@@ -78,10 +85,10 @@ Store Core 1.2.2 与 1.2.1 的运行功能相同；已安装 1.2.1 时无需为�
 - 浏览器检查：84 / 84 通过（1440、768、390、320 px，并覆盖六组图片与 3D 映射）
 - Store Core 插件检查：48 / 48 通过
 - 广告追踪专项检查：12 / 12 通过
-- 多语言检查：22 / 22 通过；主题 ES/PT 各 240 / 240，插件 ES/PT 各 109 / 109
+- 多语言检查：22 / 22 通过；主题 ES/PT 各 241 / 241，插件 ES/PT 各 109 / 109
 - PHP AST 语法解析：31 / 31 文件通过
 - 发布包检查：41 / 41 通过；ZIP 完整性、来源一致性、可复现构建和 SHA-256 已验证
 
 [查看完整验证报告](WORDPRESS-VALIDATION.md) · [查看发布清单](release-manifest.json) · [查看校验值](SHA256SUMS.txt)
 
-工厂场景图目前是明确标注的设计示意图。收到真实工厂照片后，需将照片编入下一个主题版本并重新上传主题；当前版本不提供后台直接替换这三张图片的选项。
+工厂版块已使用真实成品仓库视频；旧版三张 AI 工厂示意图已从主题包中移除。
