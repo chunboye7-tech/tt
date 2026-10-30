@@ -2,7 +2,7 @@
 
 本网站使用 WordPress 和 WooCommerce 管理商品，但采用**询价目录模式**，不启用在线付款。
 
-如果网站已经安装 1.3.1，本次只需在 **外观 → 主题 → 安装主题 → 上传主题** 中上传并替换 `XIUJIN-WordPress-Theme-1.3.2.zip`。Store Core 运行逻辑未改，无需重装插件，也无需重新设置询价、SMTP 或广告追踪。
+如果网站已经安装 1.3.2，本次只需在 **外观 → 主题 → 安装主题 → 上传主题** 中上传并替换 `XIUJIN-WordPress-Theme-1.3.3.zip`。Store Core 运行逻辑未改，无需重装插件，也无需重新设置询价、SMTP 或广告追踪。
 
 ## 1. 基础插件
 
@@ -13,13 +13,13 @@
 ## 2. 上传 XIUJIN 主题
 
 1. 进入 **外观 → 主题 → 安装主题 → 上传主题**。
-2. 上传 `XIUJIN-WordPress-Theme-1.3.2.zip`。
+2. 上传 `XIUJIN-WordPress-Theme-1.3.3.zip`。
 3. 安装完成后启用 **XIUJIN Furniture**。
 
 ## 3. 上传询价功能插件
 
 1. 进入 **插件 → 安装插件 → 上传插件**。
-2. 上传 `XIUJIN-Store-Core-1.3.2.zip` 并启用。
+2. 上传 `XIUJIN-Store-Core-1.3.3.zip` 并启用。
 3. 网站会使用商品展示与询价流程，购物车、结账和付款入口不会作为客户购买路径。
 
 ## 4. 导入商品
@@ -31,7 +31,7 @@
 ## 5. 多语言和社媒
 
 - 安装 Polylang 或 WPML 后，可建立英语、西班牙语和葡萄牙语页面；主题与插件固定界面已有三语语言包。
-- 在 **外观 → 自定义** 中填写 Facebook、Instagram、TikTok、WhatsApp 和 Messenger 链接。
+- 在 **外观 → 自定义** 中维护 Facebook、TikTok、WhatsApp 和 Messenger 链接；Telegram 链接留空时不会显示，后续可随时添加。
 - WhatsApp 和 Messenger 可作为主要询价入口。
 
 ## 6. 广告像素与询盘回传

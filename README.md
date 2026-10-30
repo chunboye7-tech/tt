@@ -8,23 +8,30 @@
 
 如果当前网站已经安装 XIUJIN 主题和 Store Core，本次只需进入 **外观 → 主题 → 安装主题 → 上传主题**，上传并替换：
 
-- [`XIUJIN-WordPress-Theme-1.3.2.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.2.zip)
+- [`XIUJIN-WordPress-Theme-1.3.3.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.3.zip)
 
-本次把四张真实工厂照片与成品仓库视频提升为主视觉和数据条之后的第一内容版块。已经安装并正常工作的 Store Core 1.2.1、1.2.2、1.3.0、1.3.1 或 1.3.2 可以保留；本次插件运行逻辑未改，无需重新配置询价、SMTP 或广告追踪。
+本次在页眉加入 Facebook 与 TikTok 跳转图标，并把默认 WhatsApp 更新为 `+852 9019 9249`。Telegram 已预留为可选项，链接为空时隐藏；Instagram 不在页眉显示。已经安装并正常工作的 Store Core 1.2.1 至 1.3.2 可以保留；本次插件运行逻辑未改，无需重新配置询价、SMTP 或广告追踪。
 
-首次建站请同时安装 1.3.2 主题和 Store Core 插件。`XIUJIN-WordPress-Complete-1.3.2.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
+首次建站请同时安装 1.3.3 主题和 Store Core 插件。`XIUJIN-WordPress-Complete-1.3.3.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
 
 ## 下载文件
 
-- [询价与广告追踪插件 1.3.2](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.3.2.zip)
-- [WordPress 主题 1.3.2](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.2.zip)
+- [询价与广告追踪插件 1.3.3](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.3.3.zip)
+- [WordPress 主题 1.3.3](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.3.zip)
 - [WooCommerce 商品导入包：18 个系列、58 个配置、118 张媒体](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip)
-- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.3.2.zip)
-- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.3.2.zip)
+- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.3.3.zip)
+- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.3.3.zip)
 - [本地交互预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Preview.zip)
 - [手机端预览图](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-preview-mobile.png)
 
 详细步骤见 [Hostinger 安装说明](HOSTINGER-INSTALL-中文.md)，文件用途见 [先从这里开始](START-HERE-中文.md)。
+
+## 1.3.3 页眉社交入口
+
+- 页眉默认显示 Facebook 与 TikTok 图标，分别跳转到已确认的主页；所有图标使用本地内联 SVG，不依赖第三方图标脚本。
+- Telegram 保留为后续可选入口，链接为空时自动隐藏；Instagram 不在页眉显示。
+- WhatsApp 默认号码更新为 `+852 9019 9249`，跳转地址为 `https://wa.me/85290199249`。
+- 320、360、390、768、1024 和 1440 px 均已通过无横向溢出检查；图标包含键盘焦点和辅助技术标签。
 
 ## 1.3.2 工厂实拍媒体优先展示
 
@@ -65,7 +72,7 @@
 - 18 个草稿商品系列、58 个已核对视觉配置和 118 张目录媒体；每个系列包含独立介绍、特点、关键词和图片映射。
 - 英语、西班牙语、葡萄牙语（巴西）的主题与插件语言包，以及 36 行西班牙语/葡萄牙语商品翻译稿。
 - Polylang 语言菜单显示所有已配置语言，并在已关联译本存在时切换到对应页面。
-- Facebook、Instagram、TikTok、WhatsApp、Messenger 可配置入口；默认 WhatsApp 为 `+86 184 0684 5852`。
+- Facebook、TikTok、WhatsApp、Messenger 可配置入口；Telegram 可在后续填写链接启用。页眉默认 WhatsApp 为 `+852 9019 9249`。
 - 五椅组合主视觉；公开首页已移除 `8011`，内部 SKU/来源字段保留以便追溯。
 - 六张真实目录图与六个 3D 外观逐一匹配；选择图片会同步待加载模型，3D 仅在用户点击后加载。
 - 响应式布局、滚动动画、减少动态效果支持、SEO 基础和 WooCommerce 商品页。
@@ -84,11 +91,11 @@
 
 ## 验证结果
 
-- 主题检查：80 项通过、0 项失败；1 项预期提示（询价处理由 Store Core 插件负责）
-- 浏览器检查：92 / 92 通过（1440、768、390、320 px，并覆盖四张工厂照片、放大查看、六组图片与 3D 映射）
+- 主题检查：81 项通过、0 项失败；1 项预期提示（询价处理由 Store Core 插件负责）
+- 浏览器检查：96 / 96 通过（1440、1024、768、390、360、320 px，并覆盖页眉社交入口、四张工厂照片、放大查看、六组图片与 3D 映射）
 - Store Core 插件检查：48 / 48 通过
 - 广告追踪专项检查：12 / 12 通过
-- 多语言检查：22 / 22 通过；主题 ES/PT 各 256 / 256，插件 ES/PT 各 109 / 109
+- 多语言检查：22 / 22 通过；主题 ES/PT 各 258 / 258，插件 ES/PT 各 109 / 109
 - PHP AST 语法解析：31 / 31 文件通过
 - 发布包检查：41 / 41 通过；ZIP 完整性、来源一致性、可复现构建和 SHA-256 已验证
 
