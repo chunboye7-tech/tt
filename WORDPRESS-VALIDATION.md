@@ -1,4 +1,4 @@
-# XIUJIN WordPress 1.3.3 验证报告
+# XIUJIN WordPress 1.3.4 验证报告
 
 最终发布构建已完成，所有阻断项为零。
 
@@ -12,7 +12,7 @@
 | PHP AST 语法解析 | 31 / 31 文件通过 |
 | 发布包完整性 | 41 / 41 通过 |
 
-主题检查中的唯一提示是：主题自身没有询价提交处理器。该职责有意交给同一交付中的 `XIUJIN-Store-Core-1.3.3.zip`，因此不是缺陷。本次插件运行逻辑未改，已有正常工作的 Store Core 无需重新配置。
+主题检查中的唯一提示是：主题自身没有询价提交处理器。该职责有意交给同一交付中的 `XIUJIN-Store-Core-1.3.4.zip`，因此不是缺陷。本次插件运行逻辑未改，已有正常工作的 Store Core 无需重新配置。
 
 Store Core 的正式 shortcode 商品输入框已验证包含首页询价脚本所需的 `data-product-field` 钩子。点击任一首页商品卡进入询价区时，会自动带入当前页面语言的商品名称。
 
@@ -23,6 +23,7 @@ Polylang 切换器已验证不再强制链接到语言首页；产品页、政�
 - Facebook 默认跳转到已确认主页，TikTok 默认跳转到 `@stevenbob620`。
 - WhatsApp 默认跳转号码为 `+852 9019 9249`；旧 WhatsApp 跳转地址已从主题包移除。
 - Telegram 支持已保留但默认链接为空，因此当前不显示；Instagram 不在页眉显示。
+- Facebook 与 TikTok 已合并为一个紧凑浅色图标组并紧邻 WhatsApp；三者比例、边框和阴影经桌面与手机截图复核。
 - 图标使用本地内联 SVG，外部链接包含 `noopener noreferrer`，并提供可访问名称与键盘焦点样式。
 - 320、360、390、768、1024 和 1440 px 视口均无横向溢出、裁切或按钮碰撞。
 
@@ -96,4 +97,4 @@ Polylang 切换器已验证不再强制链接到语言首页；产品页、政�
 
 主题、插件、商品导入、预览、源码和完整合集的 CRC、安全路径、重复成员、目录结构、源文件一致性、组件字节一致性、追踪测试证据和可复现构建均已核验。最终结果为 41 / 41 通过。
 
-对应机器可读证据收录于 `XIUJIN-WordPress-Complete-1.3.3.zip` 和 `XIUJIN-WordPress-Source-1.3.3.zip`。
+对应机器可读证据收录于 `XIUJIN-WordPress-Complete-1.3.4.zip` 和 `XIUJIN-WordPress-Source-1.3.4.zip`。

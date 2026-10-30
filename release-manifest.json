@@ -1,28 +1,28 @@
 {
   "files": {
-    "XIUJIN-Store-Core-1.3.3.zip": {
-      "bytes": 61610,
-      "sha256": "a2f4bb26b7b52185b8a1af5c2f602b22713c3d6257eeb815f14297f756b8a24d"
+    "XIUJIN-Store-Core-1.3.4.zip": {
+      "bytes": 61628,
+      "sha256": "156ce9ee95705d744aa64d5f5d98f62b07438804431a0bcd61011e816559993b"
     },
     "XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip": {
       "bytes": 13095415,
       "sha256": "de409da0e97c0181c656df5ad1c8ee8db258e593bd593d8af0779a0e40027641"
     },
-    "XIUJIN-WordPress-Complete-1.3.3.zip": {
-      "bytes": 82705584,
-      "sha256": "85b31851040555e240b5324844cdd4116d18f970fc7ba1ee0b5e6615bd7567ea"
+    "XIUJIN-WordPress-Complete-1.3.4.zip": {
+      "bytes": 82705806,
+      "sha256": "2f954aa423a905788bd9f05b09a9b52c16a14bd70f97e5784aa1cccdd85d181e"
     },
     "XIUJIN-WordPress-Preview.zip": {
-      "bytes": 7016757,
-      "sha256": "728299c9d512812dffda43b587d05c1bb5e91b8f2a5ea52eef9fe044a2c9704f"
+      "bytes": 7016788,
+      "sha256": "f1f339284b2a995839845671b33f7f5990de67143438ac5feb926270fa6861c7"
     },
-    "XIUJIN-WordPress-Source-1.3.3.zip": {
-      "bytes": 56710858,
-      "sha256": "08fb4fcdc4d178d0fc519c150d6affac2fc370fd42a4e396e22327373f133a55"
+    "XIUJIN-WordPress-Source-1.3.4.zip": {
+      "bytes": 56710952,
+      "sha256": "f504a14a2e5026d1d7ffcf0bca929d31ae5480d0e2b90326f1496db85106c079"
     },
-    "XIUJIN-WordPress-Theme-1.3.3.zip": {
-      "bytes": 5857975,
-      "sha256": "e2fadae79da946a89edae0622465e1fc39b4f553df303be877b33c53a09e3c1c"
+    "XIUJIN-WordPress-Theme-1.3.4.zip": {
+      "bytes": 5858010,
+      "sha256": "60b342818e60ec66203c98d6d9f020a8afa5c32466646381140b7d448bfbb2e0"
     }
   },
   "verified_counts": {
@@ -39,5 +39,5 @@
     "translated_product_copy_rows": 36,
     "visual_configurations": 58
   },
-  "version": "1.3.3"
+  "version": "1.3.4"
 }

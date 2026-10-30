@@ -8,23 +8,29 @@
 
 如果当前网站已经安装 XIUJIN 主题和 Store Core，本次只需进入 **外观 → 主题 → 安装主题 → 上传主题**，上传并替换：
 
-- [`XIUJIN-WordPress-Theme-1.3.3.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.3.zip)
+- [`XIUJIN-WordPress-Theme-1.3.4.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.4.zip)
 
-本次在页眉加入 Facebook 与 TikTok 跳转图标，并把默认 WhatsApp 更新为 `+852 9019 9249`。Telegram 已预留为可选项，链接为空时隐藏；Instagram 不在页眉显示。已经安装并正常工作的 Store Core 1.2.1 至 1.3.2 可以保留；本次插件运行逻辑未改，无需重新配置询价、SMTP 或广告追踪。
+本次重新设计页眉右侧比例：Facebook 与 TikTok 合并成紧凑的浅色图标组，紧邻等高的 WhatsApp 按钮，消除原来的大空隙并改善桌面和手机观感。已经安装并正常工作的 Store Core 1.2.1 至 1.3.3 可以保留；本次插件运行逻辑未改，无需重新配置询价、SMTP 或广告追踪。
 
-首次建站请同时安装 1.3.3 主题和 Store Core 插件。`XIUJIN-WordPress-Complete-1.3.3.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
+首次建站请同时安装 1.3.4 主题和 Store Core 插件。`XIUJIN-WordPress-Complete-1.3.4.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
 
 ## 下载文件
 
-- [询价与广告追踪插件 1.3.3](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.3.3.zip)
-- [WordPress 主题 1.3.3](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.3.zip)
+- [询价与广告追踪插件 1.3.4](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.3.4.zip)
+- [WordPress 主题 1.3.4](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.4.zip)
 - [WooCommerce 商品导入包：18 个系列、58 个配置、118 张媒体](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip)
-- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.3.3.zip)
-- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.3.3.zip)
+- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.3.4.zip)
+- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.3.4.zip)
 - [本地交互预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Preview.zip)
 - [手机端预览图](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-preview-mobile.png)
 
 详细步骤见 [Hostinger 安装说明](HOSTINGER-INSTALL-中文.md)，文件用途见 [先从这里开始](START-HERE-中文.md)。
+
+## 1.3.4 页眉比例与观感优化
+
+- Facebook 与 TikTok 归入同一个浅色圆角图标组，并紧邻 WhatsApp，页眉不再出现不自然的大空隙。
+- 社交图标缩为 30 × 30 px，WhatsApp 与图标组保持相近高度；阴影、边框和品牌色已统一收敛。
+- 320、360、390、768、1024 和 1440 px 均已通过无横向溢出检查，桌面与手机端均无裁切或按钮碰撞。
 
 ## 1.3.3 页眉社交入口
 
