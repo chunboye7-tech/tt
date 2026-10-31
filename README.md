@@ -2,29 +2,40 @@
 
 这是为 **Bazhou Xiujin Furniture Co., Ltd / XIUJIN** 制作的 WordPress 网站，面向办公椅、电竞椅和行政办公椅的工厂批发与零售询价。
 
+**1.3.5 已重新排版并优化整个主题：18 张商品主图全部以 720 × 720 统一画布完整显示，手机端商品卡改为紧凑单列，页眉使用不透明白底，底部 Quote 改为不遮挡商品内容的紧凑悬浮按钮。**
+
 ![XIUJIN WordPress 首页预览](XIUJIN-WordPress-preview-desktop.png)
 
 ## 现在安装哪个文件
 
 如果当前网站已经安装 XIUJIN 主题和 Store Core，本次只需进入 **外观 → 主题 → 安装主题 → 上传主题**，上传并替换：
 
-- [`XIUJIN-WordPress-Theme-1.3.4.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.4.zip)
+- [`XIUJIN-WordPress-Theme-1.3.5.zip`](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.5.zip)
 
-本次重新设计页眉右侧比例：Facebook 与 TikTok 合并成紧凑的浅色图标组，紧邻等高的 WhatsApp 按钮，消除原来的大空隙并改善桌面和手机观感。已经安装并正常工作的 Store Core 1.2.1 至 1.3.3 可以保留；本次插件运行逻辑未改，无需重新配置询价、SMTP 或广告追踪。
+本次主题升级会统一商品图片画布、重排移动端卡片、防止页眉透出下层文字，并让手机 Quote 按钮不再遮住标题或图片。已经安装并正常工作的 Store Core 1.2.1 至 1.3.4 可以保留；本次插件运行逻辑未改，无需重新配置询价、SMTP 或广告追踪。
 
-首次建站请同时安装 1.3.4 主题和 Store Core 插件。`XIUJIN-WordPress-Complete-1.3.4.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
+首次建站请同时安装 1.3.5 主题和 Store Core 插件。`XIUJIN-WordPress-Complete-1.3.5.zip` 是供电脑解压的完整交付合集，不能直接在 WordPress 的“上传插件”或“上传主题”页面安装。
 
 ## 下载文件
 
-- [询价与广告追踪插件 1.3.4](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.3.4.zip)
-- [WordPress 主题 1.3.4](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.4.zip)
+- [询价与广告追踪插件 1.3.5](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-Store-Core-1.3.5.zip)
+- [WordPress 主题 1.3.5](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Theme-1.3.5.zip)
 - [WooCommerce 商品导入包：18 个系列、58 个配置、118 张媒体](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WooCommerce-Import-18-Series-58-Configurations.zip)
-- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.3.4.zip)
-- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.3.4.zip)
+- [完整交付包：主题、插件、商品包、报告和预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Complete-1.3.5.zip)
+- [可复现构建源码](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Source-1.3.5.zip)
 - [本地交互预览](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-Preview.zip)
 - [手机端预览图](https://github.com/chunboye7-tech/tt/raw/refs/heads/main/XIUJIN-WordPress-preview-mobile.png)
 
 详细步骤见 [Hostinger 安装说明](HOSTINGER-INSTALL-中文.md)，文件用途见 [先从这里开始](START-HERE-中文.md)。
+
+## 1.3.5 整体排版与商品图优化
+
+- 18 张目录商品主图统一生成为 720 × 720 WebP，保留安全留白并使用 `object-fit: contain`，椅背、扶手、坐垫、底座和脚轮可完整显示。
+- 商品区在桌面、平板和手机端分别为 3 / 2 / 1 列；手机图片区高度不超过 270 px，卡片文字、间距和询价链接重新对齐。
+- Sticky header 使用不透明白底，滚动时不再透出页面文字；品牌图标按终端大小加载合适的 WordPress 缩略图。
+- 手机底部 Quote 通栏改为右下角 120–132 px 紧凑按钮，已验证不覆盖商品标题；页面保留安全底部间距。
+- 手机端取消滚动触发的内容揭示等待，内容即时可见；桌面端仍保留轻量交互。
+- 桌面 1440 px、平板 768 px、手机 390 / 320 px 及减少动效模式共 122 / 122 项浏览器检查通过。
 
 ## 1.3.4 页眉比例与观感优化
 
@@ -98,7 +109,7 @@
 ## 验证结果
 
 - 主题检查：81 项通过、0 项失败；1 项预期提示（询价处理由 Store Core 插件负责）
-- 浏览器检查：96 / 96 通过（1440、1024、768、390、360、320 px，并覆盖页眉社交入口、四张工厂照片、放大查看、六组图片与 3D 映射）
+- 浏览器检查：122 / 122 通过（1440、768、390、320 px 及减少动效模式，覆盖 18 张商品图、3 / 2 / 1 列布局、页眉、Quote 按钮、工厂媒体和 3D 映射）
 - Store Core 插件检查：48 / 48 通过
 - 广告追踪专项检查：12 / 12 通过
 - 多语言检查：22 / 22 通过；主题 ES/PT 各 258 / 258，插件 ES/PT 各 109 / 109
